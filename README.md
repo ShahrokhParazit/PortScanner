@@ -11,8 +11,6 @@
   <img src="https://i.imagesup.co/images2/7ed6d2b0241f73da6e2fa6e9252f054bfba1325c.png">
   
 `-` Scanning with configuration</u>(custom ports,amount of threads, socket connection-timout and outputfile)
-
-  <img src="https://i.imagesup.co/images2/90c9fec165cd1843b6ef83683d6c51025745fa96.png">
   
 ## Help
 
