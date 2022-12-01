@@ -82,7 +82,7 @@ def main():
         start_scan_threads(options)
         end_time = time.time()
         total_time = end_time - start_time
-        print(Style.BRIGHT + "\nOpen Ports:", open_ports_list, Style.RESET_ALL,"\nPort scanning has been completed in %f second(s)!" % (total_time))
+        print(Style.BRIGHT + "\nOpen Ports:", open_ports_list, Style.RESET_ALL,"\nPort scanning has been completed in %f second(s)!\n\nTelepathic" % (total_time))
         if options.output_file: write_to_output_file(options.output_file, "[%s] <%s> Open Ports: %s\n" % (datetime.today().strftime('%Y-%m-%d'), store_host[0], open_ports_list)) # how the output will be implemented
     except KeyboardInterrupt: 
         print("%s Terminated." % (sys.argv[0]))
